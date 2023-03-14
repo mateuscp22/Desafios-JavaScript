@@ -1,7 +1,10 @@
-// Maior numero dentro do array
-let array = (1, 2, 3, 4, 5, 6, 7, 8)
+let message = 'Hey, ny name is Mateus'
+console.log(message.startsWith('Hey'))
+console.log(message.startsWith('Heyq'))
+console.log(message.startsWith('hey'))
 
-console.log(Math.max(array))
+console.log(message.length)
 
-/* Objetos Built in
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects */
+console.log(message.includes('por'))
+
+console.log(message.endsWith('Hey'))
