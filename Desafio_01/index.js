@@ -1,10 +1,9 @@
-let message = 'Hey, ny name is Mateus'
-console.log(message.startsWith('Hey'))
-console.log(message.startsWith('Heyq'))
-console.log(message.startsWith('hey'))
+let name = 'Mateus'
 
-console.log(message.length)
+const email = 'Hi Joe, \nthe meeting is confirmed! \nAndre'
+const email2 = `Hi ${name}, 
+the meeting is confirmed! 
+Andre`
 
-console.log(message.includes('por'))
-
-console.log(message.endsWith('Hey'))
+console.log(email)
+console.log(email2)
