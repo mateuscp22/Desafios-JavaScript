@@ -1,21 +1,25 @@
-let bookTitle = 'Atomic Habits'
+/* let bookTitle = 'Atomic Habits'
 let bookAuthor = 'James Clear'
 let bookPages = 306
-
-//object
-const book = {
-    bookTitle: 'Atomic Habits',
-    bookAuthor: 'James Clear',
-    bookPages: 306,
-    bookChapters: {
-        chap1: 'Fundamentals',
-        chap2: '1st law',
-    },
-    printBook: function () {
-        console.log('printing...')
+ */
+function createBook(title, author, pages) {
+    //object
+    const book = {
+        bookTitle: title,
+        bookAuthor: author,
+        bookPages: pages,
+        printBook: function () {
+            console.log('printing...')
+        }
     }
+    return book
 }
 
+const book1 = createBook('Atomic', 'James', 306)
+const book2 = createBook('Think', 'Napolean', 450)
+
+console.log(book1)
+console.log(book2)
 //function
 
 /* function printBook() {
@@ -23,5 +27,3 @@ const book = {
 } */
 
 /* console.log(book) */
-
-book.printBook()
