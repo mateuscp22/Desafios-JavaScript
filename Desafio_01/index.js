@@ -1,2 +1,2 @@
 let favoriteFood = 'burguer'
-document.getElementById("text").innerHTML = favoriteFood
+document.getElementById("text").innerHTML = favoriteFood 
