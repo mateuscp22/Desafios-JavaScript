@@ -10,7 +10,18 @@ const book = {
     bookChapters: {
         chap1: 'Fundamentals',
         chap2: '1st law',
+    },
+    printBook: function () {
+        console.log('printing...')
     }
 }
 
-console.log(book)
+//function
+
+/* function printBook() {
+    console.log('printing...')
+} */
+
+/* console.log(book) */
+
+book.printBook()
